@@ -9,13 +9,11 @@ class rw_lock
     public rw_lock()
     {}
 
-    public void startRead() {
+    public synchronized void startRead() {
         if(writerReaders.incrementAndGet() >= writer_bit.get())
         {
             try {
-                while (writerReaders.get() > writer_bit.get()) {
-                    sleep(0);
-                }
+                wait();
             }
             catch (InterruptedException e) {
                 System.out.println("InterruptedException caught");
@@ -23,11 +21,11 @@ class rw_lock
         }
     }
 
-    public void startWrite() {
-        while( writerReaders.compareAndSet(0, writer_bit.get() ) != false )
+    public synchronized void startWrite() {
+        while( writerReaders.compareAndSet(0, writer_bit.get() ) != true )
         {
             try {
-                sleep(0);
+                wait();
             }
             catch (InterruptedException e) {
                 System.out.println("InterruptedException caught");
@@ -40,11 +38,14 @@ class rw_lock
 
     }
 
-    public void endWrite() {
+    public synchronized void endWrite() {
         writerReaders.set(writerReaders.get() - writer_bit.get());
+        notifyAll();
     }
 
-    public static final AtomicInteger writer_bit = new AtomicInteger(1 << 3);
+    public AtomicInteger getWriterReaders() { return writerReaders; }
+
+    public static final AtomicInteger writer_bit = new AtomicInteger(1 << 30);
 
     AtomicInteger writerReaders = new AtomicInteger(0);
 };

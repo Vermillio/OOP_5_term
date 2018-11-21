@@ -2,24 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d4adbc3-c356-4ee0-ae67-0528f7300459" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../composite_pattern/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../composite_pattern/com/Component.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../composite_pattern/com/ExprSolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../composite_pattern/com/Operand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../composite_pattern/com/Operator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../composite_pattern/com/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task12_16_abstractFactory_strategy/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task23_elective/src/Archive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task23_elective/src/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task23_elective/src/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task23_elective/src/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task28_thread_pool/src/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task28_thread_pool/src/ThreadPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task30_scheduler/src/AutoResetEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task30_scheduler/src/Scheduler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/camisado/rw_lock_test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task7_semaphore/src/Semaphore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task29_trains/src/com/camisado/Terminal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task7_semaphore/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task7_semaphore/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task7_semaphore/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task7_semaphore/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task7_semaphore/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task7_semaphore/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task7_semaphore/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task7_semaphore/Tests/com/camisado/SemaphoreTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task7_semaphore/src/com/camisado/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task7_semaphore/src/com/camisado/Semaphore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task7_semaphore/task7_semaphore.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,30 +26,31 @@
     <session id="-1417589010">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="6" />
+          <entry key="java" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="6" />
+          <entry key="JAVA" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="10" />
-          <entry key="java" value="2048" />
+          <entry key="java" value="3109" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2048" />
+          <entry key="JAVA" value="3109" />
           <entry key="PLAIN_TEXT" value="10" />
         </counts>
       </usages-collector>
@@ -72,15 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/camisado/rw_lock_test.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/camisado/rw_lockExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="e#269#270#0" expanded="true" />
-                <element signature="e#323#324#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="235">
+              <caret line="54" column="52" selection-start-line="54" selection-start-column="52" selection-end-line="54" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -88,13 +79,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/camisado/rw_lock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="43" column="66" selection-start-line="43" selection-start-column="66" selection-end-line="43" selection-end-column="66" />
+            <state relative-caret-position="242">
+              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#972#973#0" expanded="true" />
-                <element signature="e#1045#1046#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/com/camisado/rw_lockTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -105,8 +103,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>start write</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -117,8 +121,10 @@
         <option value="$PROJECT_DIR$/src/rw_lock.java" />
         <option value="$PROJECT_DIR$/src/com/camisado/rw_lock_impl.java" />
         <option value="$PROJECT_DIR$/src/com/camisado/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/camisado/rw_lock.java" />
         <option value="$PROJECT_DIR$/src/com/camisado/rw_lock_test.java" />
+        <option value="$PROJECT_DIR$/src/com/camisado/rw_lockExample.java" />
+        <option value="$PROJECT_DIR$/src/com/camisado/rw_lock.java" />
+        <option value="$PROJECT_DIR$/tests/com/camisado/rw_lockTest.java" />
       </list>
     </option>
   </component>
@@ -154,11 +160,38 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="camisado" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="task6_rw_lock" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task6_rw_lock" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task6_rw_lock" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task6_rw_lock" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="camisado" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../task10_nonBlockingQueue" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.camisado" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -172,7 +205,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.rw_lockTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.camisado.Main" />
       <module name="task6_rw_lock" />
@@ -183,8 +216,63 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="rw_lockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task6_rw_lock" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.camisado.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.camisado" />
+      <option name="MAIN_CLASS_NAME" value="com.camisado.rw_lockTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rw_lockTest.startRead" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task6_rw_lock" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.camisado.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.camisado" />
+      <option name="MAIN_CLASS_NAME" value="com.camisado.rw_lockTest" />
+      <option name="METHOD_NAME" value="startRead" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rw_lockTest.startWrite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task6_rw_lock" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.camisado.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.camisado" />
+      <option name="MAIN_CLASS_NAME" value="com.camisado.rw_lockTest" />
+      <option name="METHOD_NAME" value="startWrite" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.rw_lockTest" />
+      <item itemvalue="JUnit.rw_lockTest.startRead" />
+      <item itemvalue="JUnit.rw_lockTest.startWrite" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.rw_lockTest" />
+        <item itemvalue="JUnit.rw_lockTest.startWrite" />
+        <item itemvalue="JUnit.rw_lockTest.startRead" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -202,61 +290,80 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="rw_lockTest - 2018.11.21 at 03h 02m 32s.xml">
+      <configuration name="rw_lockTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="rw_lockTest_startRead - 2018.11.21 at 03h 07m 02s.xml">
+      <configuration name="rw_lockTest.startRead" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="rw_lockTest_startRead - 2018.11.21 at 03h 08m 00s.xml">
+      <configuration name="rw_lockTest.startRead" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="rw_lockTest_startWrite - 2018.11.21 at 03h 09m 50s.xml">
+      <configuration name="rw_lockTest.startWrite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="rw_lockTest - 2018.11.21 at 03h 12m 45s.xml">
+      <configuration name="rw_lockTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32907802" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32907802" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32907802" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32907802" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32907802" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32907802" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/tests/com/camisado/rw_lockTest.java</url>
+          <line>4</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/camisado/rw_lock_ipc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/camisado/rw_lock_ipc.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-580">
           <caret line="300" column="30" selection-start-line="300" selection-start-column="30" selection-end-line="300" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/camisado/rw_lock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="43" column="66" selection-start-line="43" selection-start-column="66" selection-end-line="43" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#972#973#0" expanded="true" />
-            <element signature="e#1045#1046#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -267,14 +374,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/camisado/rw_lock_test.java">
+    <entry file="file://$PROJECT_DIR$/src/com/camisado/rw_lock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="242">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
           <folding>
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/camisado/rw_lockExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="54" column="52" selection-start-line="54" selection-start-column="52" selection-end-line="54" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/com/camisado/rw_lockTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
         </state>
       </provider>
     </entry>

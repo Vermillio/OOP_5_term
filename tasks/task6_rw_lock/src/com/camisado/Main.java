@@ -3,7 +3,7 @@ package com.camisado;
 public class Main {
 
     public static void main(String[] args) {
-	    rw_lock_test test = new rw_lock_test();
+	    rw_lockExample test = new rw_lockExample();
 	    test.run();
     }
 }

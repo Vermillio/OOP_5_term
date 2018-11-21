@@ -1,12 +1,12 @@
 import java.util.concurrent.LinkedBlockingQueue;
 
+import static java.lang.Thread.sleep;
+
 public class ThreadPool {
-    private final int numOfThreads;
     private final PoolWorker[] threads;
     private final LinkedBlockingQueue queue;
 
     public ThreadPool(int numOfThreads) {
-        this.numOfThreads = numOfThreads;
         queue = new LinkedBlockingQueue();
         threads = new PoolWorker[numOfThreads];
 
@@ -23,6 +23,16 @@ public class ThreadPool {
         }
     }
 
+    public void executeAndWait(Runnable[] tasks) throws InterruptedException {
+        for (Runnable task : tasks)
+            execute(task);
+        //synchronized (queue) {
+            while (!queue.isEmpty()) {
+                sleep(0);
+            }
+        //}
+    }
+
     private class PoolWorker extends Thread
     {
         public void run() {
@@ -34,7 +44,7 @@ public class ThreadPool {
                         try {
                             queue.wait();
                         } catch (InterruptedException e) {
-                            System.out.println("An error occurred while queue is waiting: " + e.getMessage());
+                            e.printStackTrace();
                         }
                     }
                     task = (Runnable) queue.poll();
@@ -43,7 +53,7 @@ public class ThreadPool {
                 try {
                     task.run();
                 } catch (RuntimeException e) {
-                    System.out.println("Thread pool is interrupted due to an issue: " + e.getMessage());
+                    e.printStackTrace();
                 }
             }
         }
