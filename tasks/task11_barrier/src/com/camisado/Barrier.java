@@ -7,15 +7,15 @@ import java.util.concurrent.locks.ReentrantLock;
 
 public class Barrier
 {
-    private class Generation {
+    class Generation {
         boolean broken = false;
     }
 
     Generation generation = new Generation();
     int total;
     int count;
-    Runnable action;
-    ReentrantLock lock = new ReentrantLock();
+    private Runnable action;
+    private ReentrantLock lock = new ReentrantLock();
     private final Condition trip = lock.newCondition();
 
     public Barrier(int size, Runnable action) {
@@ -36,38 +36,29 @@ public class Barrier
         }
     }
 
-    private void nextGeneration() {
-        System.out.println("Next generation");
+    private synchronized void nextGeneration() {
         trip.signalAll();
         count = total;
         generation = new Generation();
     }
 
-    private void breakBarrier() {
-        System.out.println("Break barrier");
+    private synchronized void breakBarrier() {
         generation.broken = true;
         count = total;
         trip.signalAll();
     }
 
-    private int dowait(boolean timed, long nanos)
-            throws  InterruptedException,
-                    BrokenBarrierException,
-                    TimeoutException
-    {
-        System.out.println("dowait");
+    private int dowait(boolean timed, long nanos)throws InterruptedException, BrokenBarrierException, TimeoutException {
+        final ReentrantLock lock = this.lock;
         lock.lock();
         try {
             final Generation g = generation;
-
             if (g.broken)
                 throw new BrokenBarrierException();
-
             if (Thread.interrupted()) {
                 breakBarrier();
                 throw new InterruptedException();
             }
-
             int index = --count;
             if (index == 0) {  // tripped
                 boolean ranAction = false;
@@ -83,40 +74,30 @@ public class Barrier
                         breakBarrier();
                 }
             }
-
-            for (;;) {
+            for (; ; ) {
                 try {
                     if (!timed)
                         trip.await();
                     else if (nanos > 0L)
-                                nanos = trip.awaitNanos(nanos);
+                        nanos = trip.awaitNanos(nanos);
                 } catch (InterruptedException ie) {
                     if (g == generation && !g.broken) {
                         breakBarrier();
                         throw ie;
-                    }
-                    else {
+                    } else {
                         Thread.currentThread().interrupt();
                     }
                 }
-
-                if (g.broken)
-                    throw new BrokenBarrierException();
-
-                if (g != generation)
-                    return index;
-
-                if (timed && nanos <= 0L) {
-                    breakBarrier();
-                    throw new TimeoutException();
-                }
+            if (g.broken) throw new BrokenBarrierException();
+            if (g != generation) return index;
+            if (timed && nanos <= 0L) {
+                breakBarrier();
+                throw new TimeoutException();
             }
         }
-        finally {
-            lock.unlock();
-        }
     }
-
+        finally { lock.unlock(); }
+    }
 
     public int await() throws InterruptedException, BrokenBarrierException {
         try {
@@ -126,6 +107,7 @@ public class Barrier
             throw new Error(e);
         }
     }
+
     public void reset() {
         final ReentrantLock lock = this.lock;
         lock.lock();

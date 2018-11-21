@@ -2,23 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="133b8512-fd18-4361-bd5a-23e39936443d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../task10_nonBlockingQueue/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task10_nonBlockingQueue/src/com/camisado/ConcurrentQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/camisado/Barrier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task12_16_abstractFactory_strategy/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task23_elective/src/Archive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task23_elective/src/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task23_elective/src/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task23_elective/src/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task28_thread_pool/src/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task28_thread_pool/src/ThreadPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task30_scheduler/src/AutoResetEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task30_scheduler/src/Scheduler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task6_rw_lock/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task6_rw_lock/src/com/camisado/rw_lock_test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task7_semaphore/src/Semaphore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task10_nonBlockingQueue/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task10_nonBlockingQueue/Tests/com/camisado/NonBlockingQueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task10_nonBlockingQueue/src/com/camisado/NonBlockingQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task29_trains/src/com/camisado/Terminal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task7_semaphore/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task7_semaphore/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task7_semaphore/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task7_semaphore/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task7_semaphore/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task7_semaphore/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task7_semaphore/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task7_semaphore/Tests/com/camisado/SemaphoreTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task7_semaphore/src/com/camisado/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task7_semaphore/src/com/camisado/Semaphore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task7_semaphore/task7_semaphore.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task10_NonBlockingQueue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task10_NonBlockingQueue/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task10_NonBlockingQueue/Tests/com/camisado/ConcurrentQueueTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task10_NonBlockingQueue/src/com/camisado/ConcurrentQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task10_NonBlockingQueue/src/com/camisado/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task10_NonBlockingQueue/src/com/camisado/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,59 +33,86 @@
     <session id="-1813819400">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="java" value="5" />
+          <entry key="iml" value="2" />
+          <entry key="java" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="5" />
+          <entry key="IDEA_MODULE" value="2" />
+          <entry key="JAVA" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1602" />
+          <entry key="java" value="2343" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1602" />
+          <entry key="JAVA" value="2343" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/camisado/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-              <folding>
-                <element signature="e#252#253#0" expanded="true" />
-                <element signature="e#331#332#0" expanded="true" />
-                <element signature="e#425#426#0" expanded="true" />
-                <element signature="e#504#505#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="220">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/camisado/BarrierRunnable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="588">
+              <caret line="34" column="27" lean-forward="true" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task11_Barrier.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/camisado/Barrier.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="559">
-              <caret line="127" column="5" selection-start-line="127" selection-start-column="5" selection-end-line="127" selection-end-column="5" />
+            <state relative-caret-position="335">
+              <caret line="99" selection-start-line="99" selection-end-line="99" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/com/camisado/BarrierTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="262">
+              <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#168#169#0" expanded="true" />
+                <element signature="e#239#240#0" expanded="true" />
+                <element signature="e#321#322#0" expanded="true" />
+                <element signature="e#392#393#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,6 +123,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -103,12 +133,25 @@
       <find>nextGeneration</find>
       <find>isBroken</find>
       <find>generation.broken</find>
-      <find>break</find>
       <find>g</find>
       <find>trip.await</find>
       <find>null</find>
       <find>BrokenBarrierException</find>
+      <find>Sys</find>
+      <find>trip.si</find>
+      <find>trip</find>
+      <find>dowai</find>
+      <find>dowait</find>
+      <find>break</find>
+      <find>await</find>
+      <find>lock.unlock</find>
+      <find>lock.un</find>
+      <find>Barrier</find>
       <find>reset</find>
+      <find>B</find>
+      <find>CyclicBarrierRunnable</find>
+      <find>\d\d\d:</find>
+      <find>barrierA</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -118,12 +161,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/camisado/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/camisado/BarrierRunnable.java" />
+        <option value="$PROJECT_DIR$/tests/com/camisado/BarrierTest.java" />
         <option value="$PROJECT_DIR$/src/com/camisado/Barrier.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
+    <option name="x" value="-10" />
     <option name="width" value="1940" />
     <option name="height" value="1050" />
   </component>
@@ -133,7 +178,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -156,11 +200,28 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../task28_thread_pool" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.camisado" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -174,7 +235,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.BarrierTest.reset">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.camisado.Main" />
       <module name="task11_Barrier" />
@@ -185,8 +246,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BarrierTest.await" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task11_Barrier" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.camisado.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.camisado" />
+      <option name="MAIN_CLASS_NAME" value="com.camisado.BarrierTest" />
+      <option name="METHOD_NAME" value="await" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BarrierTest.reset" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task11_Barrier" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.camisado.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.camisado" />
+      <option name="MAIN_CLASS_NAME" value="com.camisado.BarrierTest" />
+      <option name="METHOD_NAME" value="reset" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.BarrierTest.await" />
+      <item itemvalue="JUnit.BarrierTest.reset" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BarrierTest.reset" />
+        <item itemvalue="JUnit.BarrierTest.await" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -204,6 +304,38 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="BarrierTest_reset - 2018.11.21 at 04h 22m 09s.xml">
+      <configuration name="BarrierTest.reset" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BarrierTest_reset - 2018.11.21 at 04h 25m 05s.xml">
+      <configuration name="BarrierTest.reset" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BarrierTest_reset - 2018.11.21 at 04h 26m 06s.xml">
+      <configuration name="BarrierTest.reset" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BarrierTest_reset - 2018.11.21 at 04h 27m 49s.xml">
+      <configuration name="BarrierTest.reset" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BarrierTest_reset - 2018.11.21 at 04h 29m 50s.xml">
+      <configuration name="BarrierTest.reset" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BarrierTest_reset - 2018.11.21 at 04h 31m 50s.xml">
+      <configuration name="BarrierTest.reset" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BarrierTest_reset - 2018.11.21 at 04h 33m 33s.xml">
+      <configuration name="BarrierTest.reset" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BarrierTest_reset - 2018.11.21 at 04h 36m 53s.xml">
+      <configuration name="BarrierTest.reset" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BarrierTest_reset - 2018.11.21 at 04h 45m 48s.xml">
+      <configuration name="BarrierTest.reset" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BarrierTest_reset - 2018.11.21 at 05h 02m 42s.xml">
+      <configuration name="BarrierTest.reset" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -214,17 +346,37 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1552" height="840" extended-state="0" />
+    <frame x="-8" y="0" width="1552" height="840" extended-state="0" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24932976" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25268096" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" sideWeight="0.49798927" weight="0.3281471" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.24396783" side_tool="true" visible="true" weight="0.5219236" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49865952" weight="0.3281471" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4966488" weight="0.3281471" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.75603217" weight="0.34229138" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932975" weight="0.3281471" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49798927" weight="0.3281471" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.24396783" side_tool="true" weight="0.5219236" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32956153" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25268096" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49865952" weight="0.3281471" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4966488" weight="0.3281471" />
@@ -232,46 +384,20 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932975" weight="0.3281471" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49798927" weight="0.3281471" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.24396783" side_tool="true" visible="true" weight="0.5219236" />
+      <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/camisado/Barrier.java</url>
-          <line>94</line>
-          <properties />
-          <option name="timeStamp" value="44" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/camisado/Barrier.java</url>
-          <line>82</line>
-          <properties />
-          <option name="timeStamp" value="45" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/camisado/Barrier.java</url>
-          <line>63</line>
-          <properties />
-          <option name="timeStamp" value="46" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/camisado/Barrier.java</url>
-          <line>103</line>
-          <properties />
-          <option name="timeStamp" value="47" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/ref/Finalizer.java">
@@ -302,28 +428,121 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/camisado/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task11_Barrier.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/camisado/BarrierRunnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="34" column="27" lean-forward="true" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/camisado/Barrier.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="127" column="5" selection-start-line="127" selection-start-column="5" selection-end-line="127" selection-end-column="5" />
+        <state relative-caret-position="335">
+          <caret line="99" selection-start-line="99" selection-end-line="99" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/camisado/Main.java">
+    <entry file="file://$PROJECT_DIR$/tests/com/camisado/BarrierTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+        <state relative-caret-position="262">
+          <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
           <folding>
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>task11_Barrier</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
