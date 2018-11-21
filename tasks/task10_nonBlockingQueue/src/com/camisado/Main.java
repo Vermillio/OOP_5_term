@@ -1,11 +1,8 @@
 package com.camisado;
 
-import java.util.Iterator;
-import java.util.concurrent.ConcurrentLinkedQueue;
-
 public class Main {
 
-    static ConcurrentQueue<Integer> q = new ConcurrentQueue<>();
+    static NonBlockingQueue<Integer> q = new NonBlockingQueue<>();
 
     public static void main(String[] args) throws InterruptedException {
         QueueAdder[] adders = new QueueAdder[10];
@@ -14,7 +11,7 @@ public class Main {
             adders[i].start();
         }
 
-        for (ConcurrentQueue.Node<Integer> p = q.first(); p != null; p = p.getNext()) {
+        for (NonBlockingQueue.Node<Integer> p = q.first(); p != null; p = p.getNext()) {
             System.out.println(p.getItem().intValue());
         }
 

@@ -2,57 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5338405-d9ec-4b79-8038-c981def85bf2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../20_phaser/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../20_phaser/src/com/camisado/Phaser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../20_phaser/src/com/camisado/PhaserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../20_phaser/src/com/camisado/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../9_composite/.idea/libraries/au_com_dius_pact_jvm_consumer_groovy_2_12_3_5_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../9_composite/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../9_composite/Testing/Testing.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../command_memento/.idea/libraries/au_com_dius_pact_jvm_consumer_groovy_2_12_3_5_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../command_memento/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../command_memento/Tests/Tests.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../command_memento/Tests/com/camisado/VectorGraphicsEditorHistoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../command_memento/src/com/camisado/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../command_memento/src/com/camisado/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../command_memento/src/com/camisado/Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../command_memento/src/com/camisado/MoveCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../command_memento/src/com/camisado/Primitive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../command_memento/src/com/camisado/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../command_memento/src/com/camisado/RotateCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../command_memento/src/com/camisado/ScaleCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../command_memento/src/com/camisado/SetHeightCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../command_memento/src/com/camisado/SetWidthCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../command_memento/src/com/camisado/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../command_memento/src/com/camisado/VectorGraphicsEditorHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../command_memento/src/com/camisado/VectorImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/com/camisado/ConcurrentQueueTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/camisado/ConcurrentQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task11_Barrier/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task11_Barrier/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task11_Barrier/src/com/camisado/Barrier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task23_elective/src/Archive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task23_elective/src/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task23_elective/src/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task23_elective/src/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task28_thread_pool/src/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task28_thread_pool/src/ThreadPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task2_skipList/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task2_skipList/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task2_skipList/src/com/camisado/ConcurrentSkipList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task30_scheduler/src/AutoResetEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task30_scheduler/src/Scheduler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task6_rw_lock/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task6_rw_lock/src/com/camisado/rw_lock_test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task7_semaphore/src/Semaphore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task_9_composite/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task_9_composite/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task_9_composite/GroovyTests/GroovyTests.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task_9_composite/src/com/camisado/FloatOperand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task_9_composite/src/com/camisado/IntegerOperand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task_9_composite/src/com/camisado/Tests/ExprSolverTest.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task_9_composite/src/com/camisado/Tests/OperatorTest.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/com/camisado/NonBlockingQueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/camisado/NonBlockingQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task29_trains/src/com/camisado/Terminal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task7_semaphore/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task7_semaphore/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task7_semaphore/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task7_semaphore/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task7_semaphore/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task7_semaphore/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task7_semaphore/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task7_semaphore/Tests/com/camisado/SemaphoreTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task7_semaphore/src/com/camisado/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task7_semaphore/src/com/camisado/Semaphore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task7_semaphore/task7_semaphore.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/com/camisado/ConcurrentQueueTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/camisado/ConcurrentQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/camisado/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/camisado/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,11 +33,12 @@
     <session id="-277565783">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.49" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -84,12 +53,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2726" />
+          <entry key="java" value="2949" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2726" />
+          <entry key="JAVA" value="2949" />
         </counts>
       </usages-collector>
     </session>
@@ -99,8 +68,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/camisado/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="240">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/camisado/NonBlockingQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,30 +87,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/camisado/ConcurrentQueue.java">
+        <entry file="file://$PROJECT_DIR$/Tests/com/camisado/NonBlockingQueueTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="class#Node#0;class#ConcurrentQueue#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Tests/com/camisado/ConcurrentQueueTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1369#1370#0" expanded="true" />
-                <element signature="e#1399#1400#0" expanded="true" />
-                <element signature="e#1762#1763#0" expanded="true" />
-                <element signature="e#1799#1800#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="80">
+              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -167,8 +125,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/camisado/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/camisado/ConcurrentQueue.java" />
         <option value="$PROJECT_DIR$/Tests/com/camisado/ConcurrentQueueTest.java" />
+        <option value="$PROJECT_DIR$/src/com/camisado/ConcurrentQueue.java" />
+        <option value="$PROJECT_DIR$/src/com/camisado/NonBlockingQueue.java" />
       </list>
     </option>
   </component>
@@ -184,7 +143,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -218,6 +176,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -227,7 +186,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../task7_semaphore" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../26_singleton" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -266,7 +225,7 @@
     <configuration name="RunUnitTests" type="JUnit" factoryName="JUnit">
       <module name="task10_nonBlockingQueue" />
       <option name="PACKAGE_NAME" value="com.camisado" />
-      <option name="MAIN_CLASS_NAME" value="com.camisado.ConcurrentQueueTest" />
+      <option name="MAIN_CLASS_NAME" value="com.camisado.NonBlockingQueueTest" />
       <option name="METHOD_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <method v="2">
@@ -316,7 +275,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25637585" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25973153" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -344,37 +303,26 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/camisado/ConcurrentQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="class#Node#0;class#ConcurrentQueue#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/camisado/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="240">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/com/camisado/ConcurrentQueueTest.java">
+    <entry file="file://$PROJECT_DIR$/Tests/com/camisado/NonBlockingQueueTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        <state relative-caret-position="80">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/camisado/NonBlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1369#1370#0" expanded="true" />
-            <element signature="e#1399#1400#0" expanded="true" />
-            <element signature="e#1762#1763#0" expanded="true" />
-            <element signature="e#1799#1800#0" expanded="true" />
           </folding>
         </state>
       </provider>

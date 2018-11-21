@@ -14,6 +14,7 @@ public class Scheduler {
     private volatile boolean running = true;
 
     public void start() throws InterruptedException {
+        running = true;
         while (running) {
             TimedTask task = queue.take();
             if (task != null) {
