@@ -1,3 +1,4 @@
+/*
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Calendar;
@@ -7,20 +8,20 @@ import java.util.concurrent.CountDownLatch;
 import static java.lang.Thread.sleep;
 
 public class Main {
-    static class MyTask implements Runnable {
-        private String name;
-        public long launchTime;
-
-        public MyTask(String name) {
-            this.name = name;
-        }
-
-        @Override
-        public void run() {
-            launchTime = Calendar.getInstance().getTimeInMillis();
-            System.out.println(name + ": " + launchTime);
-        }
-    }
+//    static class MyTask implements Runnable {
+//        private String name;
+//        public long launchTime;
+//
+//        public MyTask(String name) {
+//            this.name = name;
+//        }
+//
+//        @Override
+//        public void run() {
+//            launchTime = Calendar.getInstance().getTimeInMillis();
+//            System.out.println(name + ": " + launchTime);
+//        }
+//    }
 
     public static void main(String[] argv) throws InterruptedException {
 
@@ -49,7 +50,9 @@ public class Main {
         });
         System.out.println(runnable1.checkCorrect());
     }
+*/
 
+/*
     static class SchedulerRunnable implements Runnable {
         ArrayList<Integer> delays;
         ArrayList<MyTask> tasks;
@@ -74,3 +77,4 @@ public class Main {
     }
 
 }
+*/

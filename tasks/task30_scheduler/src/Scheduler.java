@@ -1,3 +1,5 @@
+import com.sun.org.apache.xpath.internal.operations.Equals;
+
 import java.util.Calendar;
 import java.util.Comparator;
 import java.util.concurrent.BlockingQueue;
@@ -16,11 +18,11 @@ public class Scheduler {
     public void start() throws InterruptedException {
         running = true;
         while (running) {
+            waitForNextTask();
             TimedTask task = queue.take();
             if (task != null) {
-                task.run(); // Ideally this should be run in a separate thread.
+                new Thread(task::run).start();
             }
-            waitForNextTask();
         }
     }
 
@@ -42,11 +44,19 @@ public class Scheduler {
         add(task, 0);
     }
 
+    public boolean contains(Runnable task) {
+        return queue.contains(TimedTask.fromTask(task,0));
+    }
+
     public void add(Runnable task, long delayMs) {
         synchronized (lock) {
             queue.offer(TimedTask.fromTask(task, delayMs));
             lock.notify();
         }
+    }
+
+    public boolean isRunning() {
+        return running;
     }
 
     public void stop() {
@@ -76,12 +86,17 @@ public class Scheduler {
             return scheduledTime.getTimeInMillis() - Calendar.getInstance().getTimeInMillis();
         }
 
-        public boolean shouldRunNow() {
-            return runFromNow() <= 0;
-        }
+        public boolean shouldRunNow() { return runFromNow() <= 0; }
 
         public void run() {
             task.run();
+        }
+
+        @Override
+        public boolean equals(Object o) {
+            if (o instanceof TimedTask)
+                return this.task==((TimedTask)o).task;
+            return false;
         }
     }
 }

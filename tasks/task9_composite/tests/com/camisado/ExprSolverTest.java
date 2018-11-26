@@ -24,7 +24,6 @@ class ExprSolverTest {
         assertNull(testee.parse("(5+4))+3"));
         assertNull(testee.parse("+"));
         assertNull(testee.parse("a+b"));
-        assertEquals(testee.parse("")
     }
 
     @Test

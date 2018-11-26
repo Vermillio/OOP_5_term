@@ -11,7 +11,7 @@ enum Opers {
 
 public class Operator<T> extends Operand<T> {
 
-    Opers oper;
+    private Opers oper;
 
         public Operator(Opers oper, Operand<T> left, Operand<T> right)
         {
@@ -53,8 +53,8 @@ public class Operator<T> extends Operand<T> {
         public Operand<T> l() { return left; }
         public Operand<T> r() { return right; }
 
-        public void set_l(Operand<T> p) { left = p; }
-        public void set_r(Operand<T> p) { right = p; }
+        public void setL(Operand<T> p) { left = p; }
+        public void setR(Operand<T> p) { right = p; }
 
         public boolean remove(Operand<T> p){
             if (left == p){
