@@ -9,17 +9,9 @@
       <change beforePath="$PROJECT_DIR$/../task2_skipList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task2_skipList/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../task2_skipList/src/com/camisado/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task2_skipList/src/com/camisado/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../task2_skipList/task2_skipList.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../task2_skipList/task2_skipList.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Scheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Scheduler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task30_scheduler.iml" beforeDir="false" afterPath="$PROJECT_DIR$/task30_scheduler.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../task6_rw_lock/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task6_rw_lock/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../task7_semaphore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task7_semaphore/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../task7_semaphore/src/com/camisado/Semaphore.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task7_semaphore/src/com/camisado/Semaphore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task9_composite/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task9_composite/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task9_composite/src/com/camisado/Operator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task9_composite/src/com/camisado/Operator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task9_composite/tests/com/camisado/ExprSolverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task9_composite/tests/com/camisado/ExprSolverTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task9_composite/tests/com/camisado/OperatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task9_composite/tests/com/camisado/OperatorTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -136,7 +128,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tests/SchedulerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
+            <state relative-caret-position="24">
               <caret line="70" column="31" lean-forward="true" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -419,7 +411,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tests/SchedulerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
+        <state relative-caret-position="24">
           <caret line="70" column="31" lean-forward="true" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
