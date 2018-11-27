@@ -4,10 +4,14 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import java.awt.*;
+
 class VectorGraphicsEditorHistoryTest {
 
     VectorGraphicsEditorHistory testee = new VectorGraphicsEditorHistory();
-    Command command = new MoveCommand(new Primitive(0,0,0,0,0),0,0);
+
+    VectorImage image = new VectorImage(100, 100);
+    Command command = MoveCommand.create(Rectangle.create(0,0,0,0,0, Color.red),0,0);
 
     @BeforeEach
     void setUp() {
