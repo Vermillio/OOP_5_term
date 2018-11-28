@@ -2,18 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd5e15c4-43b2-4b17-b305-99236037b723" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/camisado/Terminal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task7_semaphore/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task7_semaphore/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task7_semaphore/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task7_semaphore/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task7_semaphore/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task7_semaphore/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task7_semaphore/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task7_semaphore/Tests/com/camisado/SemaphoreTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task7_semaphore/src/com/camisado/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task7_semaphore/src/com/camisado/Semaphore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task7_semaphore/task7_semaphore.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/camisado/CarriageDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/camisado/PassengerCarriageBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task12_17_command_memento_factory/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task12_17_command_memento_factory/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task12_17_command_memento_factory/.idea/libraries/au_com_dius_pact_jvm_consumer_groovy_2_12_3_5_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task12_17_command_memento_factory/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task12_17_command_memento_factory/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task12_17_command_memento_factory/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task12_17_command_memento_factory/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task12_17_command_memento_factory/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task12_17_command_memento_factory/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task12_17_command_memento_factory/Tests/Tests.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task12_17_command_memento_factory/Tests/com/camisado/HistoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task12_17_command_memento_factory/out/test/command_memento/Tests.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task12_17_command_memento_factory/src/com/camisado/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task12_17_command_memento_factory/src/com/camisado/Command.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task12_17_command_memento_factory/src/com/camisado/History.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task12_17_command_memento_factory/src/com/camisado/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task12_17_command_memento_factory/src/com/camisado/MoveCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task12_17_command_memento_factory/src/com/camisado/Primitive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task12_17_command_memento_factory/src/com/camisado/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task12_17_command_memento_factory/src/com/camisado/RotateCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task12_17_command_memento_factory/src/com/camisado/ScaleCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task12_17_command_memento_factory/src/com/camisado/SetColorCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task12_17_command_memento_factory/src/com/camisado/Triangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task12_17_command_memento_factory/src/com/camisado/VectorImage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task12_17_command_memento_factory/task12_command.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task12_command/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task12_command/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task12_command/src/com/camisado/Primitive.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task12_command/src/com/camisado/Primitive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/camisado/BuffetCarriage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/camisado/BuffetCarriage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/camisado/Carriage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/camisado/Carriage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/camisado/CarriageFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/camisado/PassengerCarriage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/camisado/PassengerCarriage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/camisado/Railway.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/camisado/Railway.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/camisado/RestaurantCarriage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/camisado/RestaurantCarriage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/camisado/Terminal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/camisado/Terminal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/camisado/Train.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/camisado/Train.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task2_skipList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task2_skipList/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task2_skipList/src/com/camisado/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task2_skipList/src/com/camisado/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task2_skipList/task2_skipList.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../task2_skipList/task2_skipList.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task30_scheduler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task30_scheduler/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task6_rw_lock/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task6_rw_lock/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task7_semaphore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task7_semaphore/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task7_semaphore/src/com/camisado/Semaphore.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task7_semaphore/src/com/camisado/Semaphore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task9_composite/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task9_composite/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task9_composite/src/com/camisado/Operator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task9_composite/src/com/camisado/Operator.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,6 +56,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/task29_trains$Main.ic" NAME="Main Coverage Results" MODIFIED="1543365172895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-2100429993">
@@ -81,60 +119,51 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1817988501">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.35" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="16" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="16" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="2918" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="2918" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/camisado/Railway.java">
+        <entry file="file://$PROJECT_DIR$/src/com/camisado/PassengerCarriageBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+            <state relative-caret-position="160">
+              <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#717#718#0" expanded="true" />
-                <element signature="e#757#758#0" expanded="true" />
-                <element signature="e#624#625#0" expanded="true" />
-                <element signature="e#643#644#0" expanded="true" />
-                <element signature="e#699#700#0" expanded="true" />
-                <element signature="e#735#736#0" expanded="true" />
-                <element signature="e#571#572#0" expanded="true" />
-                <element signature="e#612#613#0" expanded="true" />
-                <element signature="e#648#649#0" expanded="true" />
-                <element signature="e#686#687#0" expanded="true" />
-                <element signature="e#644#645#0" expanded="true" />
-                <element signature="e#710#711#0" expanded="true" />
-                <element signature="e#3227#3228#0" expanded="true" />
-                <element signature="e#3263#3264#0" expanded="true" />
-                <element signature="e#3328#3329#0" expanded="true" />
-                <element signature="e#3367#3368#0" expanded="true" />
-                <element signature="e#3413#3414#0" expanded="true" />
-                <element signature="e#3450#3451#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/camisado/CarriageFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/camisado/Station.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="class#Coordinates#0;class#Station#0" />
-                <element signature="e#372#373#0" expanded="true" />
-                <element signature="e#406#407#0" expanded="true" />
-                <element signature="e#624#625#0" expanded="true" />
-                <element signature="e#644#645#0" expanded="true" />
+                <element signature="e#363#364#0" expanded="true" />
+                <element signature="e#435#436#0" expanded="true" />
+                <element signature="e#455#456#0" expanded="true" />
+                <element signature="e#524#525#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -143,54 +172,39 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/camisado/Train.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="80" column="36" selection-start-line="80" selection-start-column="36" selection-end-line="80" selection-end-column="36" />
+            <state relative-caret-position="135">
+              <caret line="92" selection-start-line="92" selection-end-line="92" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="class#CarriageTypes#0;class#Train#0" />
                 <element signature="method#addCarriage#0;class#Train#0" />
-                <element signature="e#1777#1778#0" expanded="true" />
-                <element signature="e#1819#1820#0" expanded="true" />
-                <element signature="e#1702#1703#0" expanded="true" />
-                <element signature="e#1729#1730#0" expanded="true" />
-                <element signature="e#1794#1795#0" expanded="true" />
-                <element signature="e#1821#1822#0" expanded="true" />
-                <element signature="e#1843#1844#0" expanded="true" />
-                <element signature="e#1872#1873#0" expanded="true" />
-                <element signature="e#1917#1918#0" expanded="true" />
-                <element signature="e#1936#1937#0" expanded="true" />
-                <element signature="e#2281#2282#0" expanded="true" />
-                <element signature="e#2309#2310#0" expanded="true" />
-                <element signature="e#2363#2364#0" expanded="true" />
-                <element signature="e#2384#2385#0" expanded="true" />
+                <element signature="e#2559#2560#0" expanded="true" />
                 <element signature="method#toString#0;class#Train#0" />
-                <element signature="method#getAvailableCarriages#0;class#Train#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/camisado/RestaurantCarriage.java">
+        <entry file="file://$PROJECT_DIR$/src/com/camisado/Terminal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+            <state relative-caret-position="115">
+              <caret line="98" selection-start-line="98" selection-end-line="98" />
               <folding>
-                <element signature="e#145#146#0" expanded="true" />
-                <element signature="e#205#206#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/camisado/BuffetCarriage.java">
+        <entry file="file://$PROJECT_DIR$/src/com/camisado/Station.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="64" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
+            <state relative-caret-position="217">
+              <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
               <folding>
-                <element signature="e#152#153#0" expanded="true" />
-                <element signature="e#200#201#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="class#Coordinates#0;class#Station#0" />
               </folding>
             </state>
           </provider>
@@ -199,25 +213,33 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/camisado/Carriage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="e#463#464#0" expanded="true" />
-                <element signature="e#495#496#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="260">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/camisado/Terminal.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/camisado/CarriageDecorator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="184" column="57" lean-forward="true" selection-start-line="184" selection-start-column="57" selection-end-line="184" selection-end-column="57" />
+            <state relative-caret-position="217">
+              <caret line="53" selection-start-line="53" selection-end-line="53" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#6384#6385#0" expanded="true" />
-                <element signature="e#6412#6413#0" expanded="true" />
+                <element signature="e#541#542#0" expanded="true" />
+                <element signature="e#565#566#0" expanded="true" />
+                <element signature="e#630#631#0" expanded="true" />
+                <element signature="e#660#661#0" expanded="true" />
+                <element signature="e#733#734#0" expanded="true" />
+                <element signature="e#772#773#0" expanded="true" />
+                <element signature="e#824#825#0" expanded="true" />
+                <element signature="e#854#855#0" expanded="true" />
+                <element signature="e#945#946#0" expanded="true" />
+                <element signature="e#968#969#0" expanded="true" />
+                <element signature="e#1052#1053#0" expanded="true" />
+                <element signature="e#1082#1083#0" expanded="true" />
+                <element signature="e#824#825#0" expanded="true" />
+                <element signature="e#854#855#0" expanded="true" />
+                <element signature="e#1122#1123#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -226,12 +248,65 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/camisado/PassengerCarriage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="46" column="48" lean-forward="true" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
+            <state relative-caret-position="266">
+              <caret line="69" selection-start-line="69" selection-end-line="69" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#825#826#0" expanded="true" />
-                <element signature="e#860#861#0" expanded="true" />
+                <element signature="e#355#356#0" expanded="true" />
+                <element signature="e#386#387#0" expanded="true" />
+                <element signature="e#317#318#0" expanded="true" />
+                <element signature="e#351#352#0" expanded="true" />
+                <element signature="e#462#463#0" expanded="true" />
+                <element signature="e#490#491#0" expanded="true" />
+                <element signature="e#550#551#0" expanded="true" />
+                <element signature="e#581#582#0" expanded="true" />
+                <element signature="e#633#634#0" expanded="true" />
+                <element signature="e#660#661#0" expanded="true" />
+                <element signature="e#1384#1385#0" expanded="true" />
+                <element signature="e#1417#1418#0" expanded="true" />
+                <element signature="e#1463#1464#0" expanded="true" />
+                <element signature="e#1538#1539#0" expanded="true" />
+                <element signature="e#1662#1663#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/camisado/AbstractPassengerCarriage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <folding>
+                <element signature="e#124#125#0" expanded="true" />
+                <element signature="e#153#154#0" expanded="true" />
+                <element signature="e#684#685#0" expanded="true" />
+                <element signature="e#733#734#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/camisado/CarriageWithTV.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+              <folding>
+                <element signature="e#388#389#0" expanded="true" />
+                <element signature="e#491#492#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/camisado/CarriageWithPhone.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+              <folding>
+                <element signature="e#287#288#0" expanded="true" />
+                <element signature="e#349#350#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -248,14 +323,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Station.Ticket</find>
-      <find>hasFree</find>
-      <find>toSt</find>
-      <find>Avail</find>
-      <find>args</find>
-      <find>Num</find>
-      <find>NumL</find>
-      <find>rail</find>
       <find>ini</find>
       <find>P</find>
       <find>trains</find>
@@ -263,20 +330,29 @@
       <find>from</find>
       <find>Train(</find>
       <find>Worked</find>
-      <find>price</find>
       <find>getPlacesNumLeft</find>
       <find>getDuration</find>
       <find>trainsBox</find>
       <find>trainsInfo</find>
       <find>buy</find>
       <find>visits</find>
-      <find>toS</find>
       <find>Carria</find>
-      <find>toString</find>
       <find>init</find>
       <find>10</find>
       <find>Trains</find>
       <find>buyButton</find>
+      <find>phon</find>
+      <find>getP</find>
+      <find>Arra</find>
+      <find>Passenger</find>
+      <find>Train</find>
+      <find>PassengerCarriage</find>
+      <find>toString</find>
+      <find>toS</find>
+      <find>Ava</find>
+      <find>carriages.</find>
+      <find>price</find>
+      <find>ArrayList</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -291,16 +367,21 @@
         <option value="$PROJECT_DIR$/src/com/camisado/UkrainianRailway.java" />
         <option value="$PROJECT_DIR$/src/com/camisado/Main.java" />
         <option value="$PROJECT_DIR$/src/com/camisado/Passenger.java" />
-        <option value="$PROJECT_DIR$/src/com/camisado/CarriageFactory.java" />
         <option value="$PROJECT_DIR$/src/com/camisado/Triplet.java" />
         <option value="$PROJECT_DIR$/src/com/camisado/Station.java" />
-        <option value="$PROJECT_DIR$/src/com/camisado/Carriage.java" />
         <option value="$PROJECT_DIR$/src/com/camisado/RestaurantCarriage.java" />
         <option value="$PROJECT_DIR$/src/com/camisado/BuffetCarriage.java" />
-        <option value="$PROJECT_DIR$/src/com/camisado/Train.java" />
+        <option value="$PROJECT_DIR$/src/com/camisado/Carriage.java" />
+        <option value="$PROJECT_DIR$/src/com/camisado/CarriageFactory.java" />
         <option value="$PROJECT_DIR$/src/com/camisado/Railway.java" />
+        <option value="$PROJECT_DIR$/src/com/camisado/PassengerCarriageBuilder.java" />
+        <option value="$PROJECT_DIR$/src/com/camisado/CarriageWithPrice.java" />
         <option value="$PROJECT_DIR$/src/com/camisado/PassengerCarriage.java" />
         <option value="$PROJECT_DIR$/src/com/camisado/Terminal.java" />
+        <option value="$PROJECT_DIR$/src/com/camisado/Train.java" />
+        <option value="$PROJECT_DIR$/src/com/camisado/CarriageDecorator.java" />
+        <option value="$PROJECT_DIR$/src/com/camisado/CarriageWithPhone.java" />
+        <option value="$PROJECT_DIR$/src/com/camisado/CarriageWithTV.java" />
       </list>
     </option>
   </component>
@@ -316,6 +397,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -338,12 +421,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../task_9_composite" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -401,10 +482,10 @@
       <window_info id="UI Designer" order="0" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="3" visible="true" weight="0.16487935" />
+      <window_info content_ui="combo" id="Project" order="3" visible="true" weight="0.17292225" />
       <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.5586987" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32956153" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="4" />
@@ -414,16 +495,60 @@
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.32956153" />
-      <window_info anchor="right" id="Palette&#9;" order="0" />
-      <window_info anchor="right" id="Maven Projects" order="1" />
-      <window_info anchor="right" id="Palette" order="2" />
-      <window_info anchor="right" id="Commander" order="3" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="4" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.25268096" />
+      <window_info anchor="right" id="Palette&#9;" order="1" />
+      <window_info anchor="right" id="Maven Projects" order="2" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Commander" order="4" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="UI Designer" order="0" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="3" visible="true" weight="0.17292225" />
+      <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.5586987" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32956153" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.32956153" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.32956153" />
+      <window_info active="true" anchor="bottom" id="Debug" order="7" visible="true" weight="0.39886847" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" weight="0.32956153" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.25268096" />
+      <window_info anchor="right" id="Palette&#9;" order="1" />
+      <window_info anchor="right" id="Maven Projects" order="2" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Commander" order="4" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/camisado/CarriageDecorator.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/camisado/Terminal.java</url>
+          <line>98</line>
+          <properties />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -431,16 +556,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/camisado/Ticket.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/camisado/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-          <folding>
-            <element signature="e#0#1206#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/camisado/Passenger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
@@ -455,152 +570,172 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/camisado/CarriageFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/camisado/Triplet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="29" lean-forward="true" selection-end-line="25" selection-end-column="1" />
-          <folding>
-            <element signature="e#344#345#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/camisado/Carriage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#463#464#0" expanded="true" />
-            <element signature="e#495#496#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/camisado/Triplet.java" />
     <entry file="file://$PROJECT_DIR$/src/com/camisado/BuffetCarriage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="3" column="64" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
-          <folding>
-            <element signature="e#152#153#0" expanded="true" />
-            <element signature="e#200#201#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/camisado/Railway.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#717#718#0" expanded="true" />
-            <element signature="e#757#758#0" expanded="true" />
-            <element signature="e#624#625#0" expanded="true" />
-            <element signature="e#643#644#0" expanded="true" />
-            <element signature="e#699#700#0" expanded="true" />
-            <element signature="e#735#736#0" expanded="true" />
-            <element signature="e#571#572#0" expanded="true" />
-            <element signature="e#612#613#0" expanded="true" />
-            <element signature="e#648#649#0" expanded="true" />
-            <element signature="e#686#687#0" expanded="true" />
-            <element signature="e#644#645#0" expanded="true" />
-            <element signature="e#710#711#0" expanded="true" />
-            <element signature="e#3227#3228#0" expanded="true" />
-            <element signature="e#3263#3264#0" expanded="true" />
-            <element signature="e#3328#3329#0" expanded="true" />
-            <element signature="e#3367#3368#0" expanded="true" />
-            <element signature="e#3413#3414#0" expanded="true" />
-            <element signature="e#3450#3451#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/camisado/Train.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="80" column="36" selection-start-line="80" selection-start-column="36" selection-end-line="80" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="class#CarriageTypes#0;class#Train#0" />
-            <element signature="method#addCarriage#0;class#Train#0" />
-            <element signature="e#1777#1778#0" expanded="true" />
-            <element signature="e#1819#1820#0" expanded="true" />
-            <element signature="e#1702#1703#0" expanded="true" />
-            <element signature="e#1729#1730#0" expanded="true" />
-            <element signature="e#1794#1795#0" expanded="true" />
-            <element signature="e#1821#1822#0" expanded="true" />
-            <element signature="e#1843#1844#0" expanded="true" />
-            <element signature="e#1872#1873#0" expanded="true" />
-            <element signature="e#1917#1918#0" expanded="true" />
-            <element signature="e#1936#1937#0" expanded="true" />
-            <element signature="e#2281#2282#0" expanded="true" />
-            <element signature="e#2309#2310#0" expanded="true" />
-            <element signature="e#2363#2364#0" expanded="true" />
-            <element signature="e#2384#2385#0" expanded="true" />
-            <element signature="method#toString#0;class#Train#0" />
-            <element signature="method#getAvailableCarriages#0;class#Train#0" />
-          </folding>
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/camisado/RestaurantCarriage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+        <state relative-caret-position="80">
+          <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/camisado/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/camisado/Railway.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="99" selection-start-line="99" selection-end-line="99" />
           <folding>
-            <element signature="e#145#146#0" expanded="true" />
-            <element signature="e#205#206#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/camisado/PassengerCarriage.java">
+    <entry file="file://$PROJECT_DIR$/src/com/camisado/AbstractPassengerCarriage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="46" column="48" lean-forward="true" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
+        <state relative-caret-position="20">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#825#826#0" expanded="true" />
-            <element signature="e#860#861#0" expanded="true" />
+            <element signature="e#124#125#0" expanded="true" />
+            <element signature="e#153#154#0" expanded="true" />
+            <element signature="e#684#685#0" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/camisado/Station.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        <state relative-caret-position="217">
+          <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="class#Coordinates#0;class#Station#0" />
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#624#625#0" expanded="true" />
-            <element signature="e#644#645#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/camisado/PassengerCarriageBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
+          <folding>
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/camisado/Carriage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/camisado/CarriageWithTV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+          <folding>
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/camisado/Terminal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="184" column="57" lean-forward="true" selection-start-line="184" selection-start-column="57" selection-end-line="184" selection-end-column="57" />
+        <state relative-caret-position="115">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#6384#6385#0" expanded="true" />
-            <element signature="e#6412#6413#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/camisado/PassengerCarriage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+          <folding>
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+            <element signature="e#1384#1385#0" expanded="true" />
+            <element signature="e#1417#1418#0" expanded="true" />
+            <element signature="e#1463#1464#0" expanded="true" />
+            <element signature="e#1538#1539#0" expanded="true" />
+            <element signature="e#1662#1663#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/camisado/Train.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#CarriageTypes#0;class#Train#0" />
+            <element signature="method#addCarriage#0;class#Train#0" />
+            <element signature="e#2559#2560#0" expanded="true" />
+            <element signature="method#toString#0;class#Train#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/camisado/CarriageDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#630#631#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+            <element signature="e#772#773#0" expanded="true" />
+            <element signature="e#824#825#0" expanded="true" />
+            <element signature="e#854#855#0" expanded="true" />
+            <element signature="e#945#946#0" expanded="true" />
+            <element signature="e#968#969#0" expanded="true" />
+            <element signature="e#1052#1053#0" expanded="true" />
+            <element signature="e#1082#1083#0" expanded="true" />
+            <element signature="e#824#825#0" expanded="true" />
+            <element signature="e#854#855#0" expanded="true" />
+            <element signature="e#1122#1123#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/camisado/CarriageWithPhone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+          <folding>
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
           </folding>
         </state>
       </provider>

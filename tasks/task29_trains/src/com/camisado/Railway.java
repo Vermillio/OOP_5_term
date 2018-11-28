@@ -5,17 +5,8 @@ import java.time.Duration;
 import java.time.LocalDateTime;
 import java.util.*;
 
-//
-//import java.time.LocalDate;
-//import java.time.LocalDateTime;
-//import java.util.List;
-//import java.util.Map;
-//
 public class Railway {
     HashMap<Station, HashMap<Station, Integer>> stations;
-
-    int phonePrice = 50;
-    int tvPrice = 50;
 
     public Railway() {stations=new HashMap<>(); }
 
@@ -23,23 +14,7 @@ public class Railway {
         this.stations = stations;
     }
 
-    void setPhonePrice(int price) {
-        this.phonePrice=price;
-    }
-
-    void setTvPrice(int price) {
-        this.tvPrice = price;
-    }
-
-    int getPhonePrice() {
-        return phonePrice;
-    }
-
-    int getTvPrice() {
-        return tvPrice;
-    }
-
-    ArrayList<Station> getStations() {
+    List<Station> getStations() {
         return new ArrayList<>(stations.keySet());
     }
 
@@ -73,7 +48,7 @@ public class Railway {
     }
 
 
-    Route createRoute(ArrayList<Point> stations) {
+    Route createRoute(List<Point> stations) {
         for (int i = 0;i < stations.size()-1; ++i) {
             Integer connection = this.stations.get(stations.get(i).getStation()).get(stations.get(i+1).getStation());
             if (connection==null)
@@ -85,9 +60,9 @@ public class Railway {
     public class Route {
 
         Railway railway;
-        ArrayList<Point> points;
+        List<Point> points;
 
-        private Route(Railway railway, ArrayList<Point> points) { this.railway = railway; this.points = points; }
+        private Route(Railway railway, List<Point> points) { this.railway = railway; this.points = points; }
 
         public int size() {return points.size();}
 
@@ -101,11 +76,6 @@ public class Railway {
 
         public Duration getDuration() { return Duration.between(first().departure, last().arrival); }
         public Duration getDuration(Station x, Station y) {
-            assert(contains(x));
-            assert(contains(y));
-            int indexX = indexOf(x);
-            int indexY = indexOf(y);
-            assert(indexX < indexY);
             return Duration.between(get(indexOf(x)).departure, get(indexOf(y)).arrival);
         }
 
@@ -178,8 +148,5 @@ public class Railway {
                 return station == (Station)x;
             return false;
         }
-
-
     }
-
 }

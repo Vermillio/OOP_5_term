@@ -1,11 +1,8 @@
 package com.camisado;
 
 import java.time.Duration;
-import java.time.LocalDateTime;
-import java.time.LocalTime;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.TreeSet;
+import java.util.List;
 
 
 public class Train {
@@ -16,10 +13,8 @@ public class Train {
         buffet
     };
 
-    static ArrayList<String> CarriageTypeNames = new ArrayList<>(Arrays.asList("passenger", "restaurant", "buffet"));
-
     int number;
-    ArrayList<Carriage> carriages;
+    List<Carriage> carriages;
     Railway railway;
     Railway.Route route;
     boolean valid = false;
@@ -32,7 +27,7 @@ public class Train {
         this.valid=x.valid;
     }
 
-    Train(int number, Railway railway, ArrayList<Railway.Point> route, ArrayList<Carriage> carriages) {
+    Train(int number, Railway railway, List<Railway.Point> route, List<Carriage> carriages) {
         this.number = number;
         this.railway = railway;
         this.route = railway.createRoute(route);
@@ -73,14 +68,6 @@ public class Train {
         return route.getDuration(x, y);
     }
 
-    int getPhonePrice() {
-        return railway.getPhonePrice();
-    }
-
-    int getTvPrice() {
-        return railway.getTvPrice();
-    }
-
     boolean visits(Station station) {
         if (route.contains(station))
             return true;
@@ -91,7 +78,7 @@ public class Train {
     boolean hasFreePlaces() {
         for (Carriage carriage : carriages) {
             if (carriage instanceof PassengerCarriage) {
-                if (((PassengerCarriage) carriage).placesNumLeft > 0)
+                if (((PassengerCarriage) carriage).getPlacesLeft() > 0)
                     return true;
             }
         }
@@ -118,11 +105,11 @@ public class Train {
                 "free carriages num: " + getAvailableCarriages().size() + "\n";
     }
 
-    ArrayList<PassengerCarriage> getAvailableCarriages() {
-        ArrayList<PassengerCarriage> res = new ArrayList<>();
+    List<AbstractPassengerCarriage> getAvailableCarriages() {
+        List<AbstractPassengerCarriage> res = new ArrayList<>();
         for (Carriage carriage: carriages) {
-            if (carriage instanceof PassengerCarriage) {
-                res.add((PassengerCarriage)carriage);
+            if (carriage instanceof AbstractPassengerCarriage) {
+                res.add((AbstractPassengerCarriage) carriage);
             }
         }
         return res;

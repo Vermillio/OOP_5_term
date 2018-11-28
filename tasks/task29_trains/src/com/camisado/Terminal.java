@@ -34,29 +34,64 @@ public class Terminal extends Application {
         railway.addConnection(dnipro, odesa, 400);
         railway.addConnection(lviv, kyiv, 500);
         railway.addConnection(dnipro, kyiv, 400);
+        railway.addConnection(dnipro, uman, 400);
 
+        PassengerCarriageBuilder builderEconomy = new PassengerCarriageBuilder(70, 30, PassengerCarriage.CarriageType.economy);
+        PassengerCarriageBuilder builderCompartment = new PassengerCarriageBuilder(50, 85, PassengerCarriage.CarriageType.compartment);
+        PassengerCarriageBuilder builderSeat = new PassengerCarriageBuilder(120, 45, PassengerCarriage.CarriageType.seat);
 
         LocalDateTime start = LocalDateTime.of(2018, 11, 20, 9,30,0);
 
-        for (int i=0; i < 10; ++i) {
+        List<List<Railway.Point>> routes = new ArrayList<>();
+        routes.add(new ArrayList<>(
+                Arrays.asList(
+                        Railway.Point.of(lviv, start.plusHours(1), start.plusHours(2)),
+                        Railway.Point.of(kyiv, start.plusHours(3), start.plusHours(4)),
+                        Railway.Point.of(dnipro, start.plusHours(5), start.plusHours(6)),
+                        Railway.Point.of(kharkiv, start.plusHours(7), start.plusHours(8))
+                )
+        ));
+
+        routes.add(new ArrayList<>(
+                Arrays.asList(
+                        Railway.Point.of(odesa, start.plusHours(1), start.plusHours(2)),
+                        Railway.Point.of(uman, start.plusHours(3), start.plusHours(4)),
+                        Railway.Point.of(dnipro, start.plusHours(5), start.plusHours(6)),
+                        Railway.Point.of(kyiv, start.plusHours(7), start.plusHours(8))
+                )
+        ));
+
+
+        List<List<Carriage>> carriages = new ArrayList<>();
+        builderCompartment.addPhone();
+        builderSeat.addTV();
+
+        carriages.add(new ArrayList<>(
+                Arrays.asList(
+                        builderEconomy.build(1),
+                        builderCompartment.build(2),
+                        builderSeat.build(3)
+                )
+        ));
+
+        builderCompartment.addPhone();
+        builderCompartment.addTV();
+
+        carriages.add(new ArrayList<>(
+                Arrays.asList(
+                        builderEconomy.build(4),
+                        builderCompartment.build(5),
+                        builderSeat.build(6)
+                )
+        ));
+
+
+        for (int i=0; i < 2; ++i) {
             Train train = new Train(
                     i,
                     railway,
-                    new ArrayList<>(
-                            Arrays.asList(
-                                    Railway.Point.of(lviv, start.plusHours(1), start.plusHours(2)),
-                                    Railway.Point.of(kyiv, start.plusHours(3), start.plusHours(4)),
-                                    Railway.Point.of(dnipro, start.plusHours(5), start.plusHours(6)),
-                                    Railway.Point.of(kharkiv, start.plusHours(7), start.plusHours(8))
-                            )
-                    ),
-                    new ArrayList<>(
-                            Arrays.asList(
-                                    new PassengerCarriage(1, false, false, 70, 30, PassengerCarriage.CarriageType.economy),
-                                    new PassengerCarriage(2, true, true, 50, 100, PassengerCarriage.CarriageType.compartment),
-                                    new PassengerCarriage(3, false, false, 130, 50, PassengerCarriage.CarriageType.seat)
-                            )
-                    )
+                    routes.get(i),
+                    carriages.get(i)
             );
 
             trains.add(new Train(train));
@@ -69,10 +104,10 @@ public class Terminal extends Application {
         Station from;
         Station to;
         Train train;
-        PassengerCarriage carriage;
+        AbstractPassengerCarriage carriage;
         Button button;
 
-        public CarriageHandler(Station from, Station to, Train train, Button button, PassengerCarriage carriage) {
+        public CarriageHandler(Station from, Station to, Train train, Button button, AbstractPassengerCarriage carriage) {
             this.carriage=carriage;
             this.button=button;
             this.from=from;
@@ -115,7 +150,7 @@ public class Terminal extends Application {
         public void handle (ActionEvent e){
             vBoxAdd.setManaged(true);
 //            vBoxAdd.getChildren().add(new Label(train.getFullDesc()));
-            ArrayList<PassengerCarriage> carriages = train.getAvailableCarriages();
+            List<AbstractPassengerCarriage> carriages = train.getAvailableCarriages();
             if (carriages.size()==0)
                 carriagesInfo.setText("No places left");
             else {
@@ -124,7 +159,7 @@ public class Terminal extends Application {
             vBoxAdd.setVisible(true);
             carriagesPane.getChildren().clear();
             int i = 0;
-            for (PassengerCarriage carriage : carriages) {
+            for (AbstractPassengerCarriage carriage : carriages) {
                 Button cButton = new Button("№"+Integer.toString(carriage.number) + "("+Integer.toString(carriage.getPlacesLeft())+" left)");
                 carriagesPane.add(cButton, i % 4, i / 4);
                 ++i;

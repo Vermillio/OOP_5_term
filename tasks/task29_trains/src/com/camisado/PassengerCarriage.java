@@ -1,14 +1,36 @@
 package com.camisado;
 
-import java.util.ArrayList;
-import java.util.Arrays;
+public class PassengerCarriage extends AbstractPassengerCarriage {
+    private int placesTotal;
+    private int placesLeft;
+    private int pricePerKm;
+    private CarriageType type;
+    private String name = "PassengerCarriage";
 
-public class PassengerCarriage extends Carriage {
-    int placesNum;
-    int placesNumLeft;
-    int pricePerKm;
-    CarriageType type;
-    String name="PassengerCarriage";
+    @Override
+    public int getPlacesTotal() {
+        return placesTotal;
+    }
+
+    @Override
+    public void setNumber(int number) {
+        this.number = number;
+    }
+
+    @Override
+    public int getNumber() {
+        return number;
+    }
+
+    @Override
+    public void setType(CarriageType type) {
+        this.type = type;
+    }
+
+    @Override
+    public CarriageType getType() {
+        return type;
+    }
 
     enum CarriageType {
         seat,
@@ -16,37 +38,35 @@ public class PassengerCarriage extends Carriage {
         compartment
     }
 
-    public PassengerCarriage(int number, boolean has_tv, boolean has_phone, int placesNum, int pricePerKm, CarriageType type )
+    public PassengerCarriage(int number, int placesNum, int pricePerKm, CarriageType type )
     {
-        super(number, has_tv, has_phone);
-        this.placesNum = placesNum;
-        this.placesNumLeft=placesNum;
+        super(number);
+        this.placesTotal = placesNum;
+        this.placesLeft =placesNum;
         this.pricePerKm = pricePerKm;
         this.type = type;
     }
 
-    boolean reservePlace() {
-        if (placesNumLeft <= 0)
+    @Override
+    public boolean reservePlace() {
+        if (placesLeft <= 0)
             return false;
-        placesNumLeft--;
+        placesLeft--;
         return true;
     }
 
-    int getPlacesLeft() {
-        return placesNumLeft;
+    @Override
+    public int getPlacesLeft() {
+        return placesLeft;
     }
 
     @Override
     public String toString() {
-        return "№: " + number + "\n"+
-                "type: " + type.toString() + "\n"+
-                "has tv: " + (this.has_tv ? "yes" : "no") + "\n" +
-                "telephone: " + (this.has_phone ? "yes" : "no") +"\n";
+        return super.toString() + "type: " + getType().toString() + "\n";
     }
 
+    @Override
     public int price(Station from, Station to) {
-        return pricePerKm * train.lengthKm(from, to)+train.getPhonePrice()+train.getTvPrice();
+        return pricePerKm * train.lengthKm(from, to);
     }
-
-
 }
