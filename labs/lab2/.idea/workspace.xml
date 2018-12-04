@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e7b5d4c7-f514-45a8-b88a-052cdee165d2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../tasks/task12_17_command_memento_factory/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tasks/task12_17_command_memento_factory/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tasks/task12_17_command_memento_factory/.idea/libraries/au_com_dius_pact_jvm_consumer_groovy_2_12_3_5_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tasks/task12_17_command_memento_factory/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tasks/task12_17_command_memento_factory/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tasks/task12_17_command_memento_factory/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tasks/task12_17_command_memento_factory/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tasks/task12_17_command_memento_factory/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tasks/task12_17_command_memento_factory/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tasks/task12_17_command_memento_factory/Tests/Tests.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tasks/task12_17_command_memento_factory/Tests/com/camisado/HistoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tasks/task12_17_command_memento_factory/out/test/command_memento/Tests.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tasks/task12_17_command_memento_factory/src/com/camisado/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tasks/task12_17_command_memento_factory/src/com/camisado/Command.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tasks/task12_17_command_memento_factory/src/com/camisado/History.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tasks/task12_17_command_memento_factory/src/com/camisado/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tasks/task12_17_command_memento_factory/src/com/camisado/MoveCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tasks/task12_17_command_memento_factory/src/com/camisado/Primitive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tasks/task12_17_command_memento_factory/src/com/camisado/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tasks/task12_17_command_memento_factory/src/com/camisado/RotateCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tasks/task12_17_command_memento_factory/src/com/camisado/ScaleCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tasks/task12_17_command_memento_factory/src/com/camisado/SetColorCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tasks/task12_17_command_memento_factory/src/com/camisado/Triangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tasks/task12_17_command_memento_factory/src/com/camisado/VectorImage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tasks/task12_17_command_memento_factory/task12_command.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tasks/task12_command/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../tasks/task12_command/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tasks/task12_command/src/com/camisado/Primitive.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../tasks/task12_command/src/com/camisado/Primitive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tasks/task2_skipList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../tasks/task2_skipList/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tasks/task2_skipList/src/com/camisado/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../tasks/task2_skipList/src/com/camisado/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tasks/task2_skipList/task2_skipList.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../tasks/task2_skipList/task2_skipList.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tasks/task30_scheduler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../tasks/task30_scheduler/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tasks/task6_rw_lock/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../tasks/task6_rw_lock/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tasks/task7_semaphore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../tasks/task7_semaphore/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tasks/task7_semaphore/src/com/camisado/Semaphore.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../tasks/task7_semaphore/src/com/camisado/Semaphore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tasks/task9_composite/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../tasks/task9_composite/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tasks/task9_composite/src/com/camisado/Operator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../tasks/task9_composite/src/com/camisado/Operator.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/lab2$PaperParserTest.ic" NAME="PaperParserTest Coverage Results" MODIFIED="1543390245572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.camisado.xml.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="209" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-778342677">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="26" />
+          <entry key="java" value="1338" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1338" />
+          <entry key="PLAIN_TEXT" value="26" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="1125684223">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="13" />
+          <entry key="java" value="763" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="763" />
+          <entry key="PLAIN_TEXT" value="13" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/camisado/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/camisado/xml/PaperParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="640">
+              <caret line="44" column="31" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Tests/com/camisado/xml/PaperParserTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/camisado/xml/DomXmlPaperParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/camisado/xml/SaxXmlPaperParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="700">
+              <caret line="49" column="29" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/camisado/xml/XmlPaperParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/camisado/Paper/Periodical.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="880">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/camisado/xml/StaxXmlPaperParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="36" column="60" selection-start-line="36" selection-start-column="60" selection-end-line="36" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/camisado/Paper/Chars.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>authorize</find>
+      <find>email</find>
+      <find>Email</find>
+      <find>news</find>
+      <find>News</find>
+      <find>links</find>
+      <find>Links</find>
+      <find>poll</find>
+      <find>Poll</find>
+      <find>getColor</find>
+      <find>getGlossy</find>
+      <find>bAuthorize</find>
+      <find>PageType</find>
+      <find>Authorize</find>
+      <find>glo</find>
+      <find>Page</find>
+      <find>page</find>
+      <find>eq</find>
+      <find>periodicals</find>
+      <find>hash</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/camisado/xml/DomParser.java" />
+        <option value="$PROJECT_DIR$/src/com/camisado/xml/SAXpaperParser.java" />
+        <option value="$PROJECT_DIR$/src/com/camisado/Paper/Paper.java" />
+        <option value="$PROJECT_DIR$/src/com/camisado/xml/StAXpaperParser.java" />
+        <option value="$PROJECT_DIR$/src/com/camisado/xml/PaperParserStrategy.java" />
+        <option value="$PROJECT_DIR$/src/com/camisado/xml/XmlPaperParser.java" />
+        <option value="$PROJECT_DIR$/src/com/camisado/xml/SaxXmlPaperParser.java" />
+        <option value="$PROJECT_DIR$/src/com/camisado/xml/DomXmlPaperParser.java" />
+        <option value="$PROJECT_DIR$/src/com/camisado/xml/StaxXmlPaperParser.java" />
+        <option value="$PROJECT_DIR$/src/com/camisado/xml/PaperParser.java" />
+        <option value="$PROJECT_DIR$/src/com/camisado/Main.java" />
+        <option value="$PROJECT_DIR$/Tests/com/camisado/xml/PaperParserTest.java" />
+        <option value="$PROJECT_DIR$/src/com/camisado/Paper/Periodical.java" />
+        <option value="$PROJECT_DIR$/src/com/camisado/Paper/Chars.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1940" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="lab2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="camisado" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="camisado" type="462c0819:PsiDirectoryNode" />
+              <item name="Paper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="camisado" type="462c0819:PsiDirectoryNode" />
+              <item name="xml" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab2" type="462c0819:PsiDirectoryNode" />
+              <item name="Tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab2" type="462c0819:PsiDirectoryNode" />
+              <item name="Tests" type="462c0819:PsiDirectoryNode" />
+              <item name="xml" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/untitled" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.camisado.xml" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.PaperParserTest.parse">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.camisado.Main" />
+      <module name="lab2" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaperParserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.camisado.xml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.camisado.xml" />
+      <option name="MAIN_CLASS_NAME" value="com.camisado.xml.PaperParserTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaperParserTest.parse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.camisado.xml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.camisado.xml" />
+      <option name="MAIN_CLASS_NAME" value="com.camisado.xml.PaperParserTest" />
+      <option name="METHOD_NAME" value="parse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.PaperParserTest" />
+      <item itemvalue="JUnit.PaperParserTest.parse" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PaperParserTest.parse" />
+        <item itemvalue="JUnit.PaperParserTest" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e7b5d4c7-f514-45a8-b88a-052cdee165d2" name="Default Changelist" comment="" />
+      <created>1543372457674</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543372457674</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="PaperParserTest_parse - 2018.11.28 at 09h 39m 49s.xml">
+      <configuration name="PaperParserTest.parse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PaperParserTest_parse - 2018.11.28 at 09h 40m 02s.xml">
+      <configuration name="PaperParserTest.parse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PaperParserTest_parse - 2018.11.28 at 09h 43m 32s.xml">
+      <configuration name="PaperParserTest.parse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PaperParserTest_parse - 2018.11.28 at 09h 44m 36s.xml">
+      <configuration name="PaperParserTest.parse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PaperParserTest_parse - 2018.11.28 at 09h 45m 21s.xml">
+      <configuration name="PaperParserTest.parse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PaperParserTest_parse - 2018.11.28 at 09h 46m 07s.xml">
+      <configuration name="PaperParserTest.parse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PaperParserTest_parse - 2018.11.28 at 09h 48m 41s.xml">
+      <configuration name="PaperParserTest.parse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PaperParserTest_parse - 2018.11.28 at 09h 50m 13s.xml">
+      <configuration name="PaperParserTest.parse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PaperParserTest_parse - 2018.11.28 at 09h 51m 46s.xml">
+      <configuration name="PaperParserTest.parse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PaperParserTest_parse - 2018.11.28 at 09h 52m 44s.xml">
+      <configuration name="PaperParserTest.parse" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1552" height="840" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25670242" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.43281472" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Coverage" order="6" side_tool="true" visible="true" weight="0.103217155" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2533512" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Tests/com/camisado/xml/PaperParserTest.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/camisado/Paper/Periodical.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/camisado/Paper/Chars.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/camisado/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/camisado/xml/PaperParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="44" column="31" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/camisado/xml/DomXmlPaperParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/camisado/xml/SaxXmlPaperParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="49" column="29" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/camisado/xml/XmlPaperParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/camisado/Paper/Periodical.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/camisado/xml/StaxXmlPaperParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="36" column="60" selection-start-line="36" selection-start-column="60" selection-end-line="36" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/camisado/Paper/Chars.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/com/camisado/xml/PaperParserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

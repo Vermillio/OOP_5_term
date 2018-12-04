@@ -1,0 +1,23 @@
+<paper>
+	<periodical id="0">
+		<title>Dazed And Confused</title>
+		<type>Journal</type>
+		<Chars>
+			<color>1</color>
+			<volume>35</volume>
+			<glossy>1</glossy>
+			<postalCode>080983</postalCode>
+		</Chars>
+		<monthly>1</monthly>
+	</periodical>
+	<periodical id="1">
+		<title>New York Times</title>
+		<type>Newspaper</type>
+		<Chars>
+			<color>1</color>
+			<volume>28</volume>
+			<postalCode>103 v041</postalCode>
+		</Chars>
+		<monthly>1</monthly>
+	</periodical>
+</paper>

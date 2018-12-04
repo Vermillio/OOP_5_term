@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:simpleType name="Type">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Newspaper"/>
+            <xs:enumeration value="Journal"/>
+            <xs:enumeration value="Booklet"/>
+        </xs:restriction>
+    </xs:simpleType>
+	<xs:element name="paper">
+	    <xs:complexType>
+            <xs:sequence>
+                <xs:element name="periodical" minOccurs="1" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="title" type="xs:string"/>
+                            <xs:element name="type" type="Type"/>
+                            <xs:element name="Chars">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="color" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+										
+                                        <xs:element name="volume" type="xs:integer" minOccurs="0" maxOccurs="1"/>
+                                        
+										<xs:element name="glossy" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+                                        
+										<xs:element name="postalCode" type="xs:string" minOccurs="1" maxOccurs="1"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="monthly" type="xs:boolean"/>
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:string"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>	
